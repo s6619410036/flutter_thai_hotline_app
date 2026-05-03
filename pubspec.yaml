@@ -1,0 +1,29 @@
+name: thai_hotline_app
+description: "A new Flutter project for Thai Hotline services."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # ใช้เวอร์ชัน 4.0.0 ตามที่ระบบแนะนำเพื่อป้องกัน Error
+  introduction_screen: ^4.0.0 
+  # สำหรับโทรออกตามโจทย์ข้อ 9
+  url_launcher: ^6.3.2
+  google_fonts: ^6.2.1
+  font_awesome_flutter: ^10.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  # ต้องสร้างโฟลเดอร์เหล่านี้ในโปรเจกต์ด้วย
+  assets:
+    - assets/images/
+    - assets/icon/
